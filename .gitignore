@@ -1,18 +1,3 @@
-# Ignore virtual environments
-label-noise-in-ids-project-env/
-label-noise-in-ids-project-env-linux/
-
-# Ignore library clone
-aqua/
-
-# Ignore Python cache and junk
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
-*.pyo
-*.pyd
-
-# Ignore system or IDE stuff
-.DS_Store
-.vscode/
-.idea/
+train/*.csv
+test/*.csv
+validation/*.csv
